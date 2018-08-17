@@ -1,0 +1,695 @@
+/*!
+ * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #f63;
+}
+
+.size {
+ font-size: 26px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 18px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #f63;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #f63;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.col-xs-12 img{
+    width: 100%;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #f63;
+  border-color: #f63;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #f63;
+  border-color: #f63;
+}
+.btn-primary .badge {
+  color: #f63;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #f63;
+  border-color: #f63;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #f63;
+  border-color: #f63;
+}
+.btn-xl .badge {
+  color: #f63;
+  background-color: white;
+}
+
+
+@media (max-width: 768px){
+    
+    .body{
+        width: 100%
+    }
+    
+    .section{
+        width: 100%;
+    }
+        
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #mainNav{
+        width: inherit;
+    }
+    
+    .jumbotron{
+        width: 90%;
+        margin-left: 8px;
+    }
+    
+    #myCar{
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #about{
+        width: 100%;
+    }
+    
+    .video > iframe{
+        height: 300px;
+        width: 500px;
+        margin-left: -245px;
+        padding-right: 50px;
+        padding-right: 50px;
+    }
+    
+    .sports1 > img{
+        margin-left: -80px;
+    }
+    .sports2 > img{
+        margin-left: -80px;
+    }
+}
+
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #f63;
+  font-family: 'Playball', cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {    
+  background-color: #f63;
+  border-color: #f63;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: right;
+  font-size: 14px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #f63;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px; 
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #f63;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #f63;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #f63;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 25px;
+    width: 100%;  
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    width: 100%;  
+    padding: 10px 10px;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+    height: auto;
+}
+
+header {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: space;
+  background-attachment: scroll;  
+  background-position: center;
+  -webkit-background-size: 200px;
+  -moz-background-size: 200px;
+  background-size: cover;  
+  -o-background-size: 200px;
+  text-align: center;
+  
+}
+header .intro-text {
+  font-family: 'Chela One', cursive;    
+  padding-top: 100px;
+  padding-bottom: 20px;    
+  margin-top: 175px;
+  color: #3b5998;    
+  padding-right: 0px;      
+  
+}
+header .intro-text .intro-lead-in {
+  font-family: 'Merienda', cursive;
+  margin-bottom: 23px;    
+  font-style: normal;    
+  font-size: 25px;   
+  line-height: 0px;    
+  padding-left: 50px; 
+  color: white;    
+}
+header .intro-text .intro-heading {
+  font-family: 'Concert One', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 70px;
+  margin-bottom: 10px;    
+  padding-bottom: 100px;
+  padding-right: -200px;    
+  color: #FFFA37;
+      
+      
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 180px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: 'Merienda', cursive;
+    font-style: italic;
+    padding-top: 0px;  
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 65px;
+  }
+  header .intro-text .intro-heading {
+   font-family: 'Concert One', cursive;
+    text-transform: uppercase;
+    font-weight: 75;
+    margin-top: -80px;  
+    font-size: 90px;
+    line-height: 130px;
+    margin-bottom: 0px;
+  }
+}
+section {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+    
+}
+section h2.section-heading {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+  text-align: center;    
+}
+
+
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+h2.football{
+    font-size: 23px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+h5{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 0 75px;
+}
+
+
+.white{
+    color: white;
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.carousel{
+    height: 530px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+.carousel .item{
+    height: 530px;
+}
+
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 530px;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+}
+
+.video{
+    margin-left: 300px;
+    width: inherit;
+}
+
+
+.sports1{
+    height: 450px;
+    width: 70%;
+    margin-left: 170px;
+}
+
+.sports1 > img{
+    height: 450px;
+    width: 100%;
+}
+
+.sports2{
+    height: 450px;
+    width: 70%;
+    margin-left: 170px;
+}
+
+.sports2 > img{
+    height: 450px;
+    width: 100%;
+}
+
+.team-member{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+#portfolio .portfolio-item {
+  margin: 0 0;
+  right: 0;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+aside.clients img {
+  margin: 50px auto;
+  padding: 20px;        
+}
+section#contact {
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: lightgrey;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 16px;    
+}
+
+.heart{
+    padding: 6px;
+    font-size: 21px;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #fed136;
+}
